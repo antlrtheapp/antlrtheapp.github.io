@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $('#particles').particleground({
-    dotColor: '#9C8DF7',
+    dotColor: '#e64b46',
     lineColor: '#9C8DF7'
   });
   $('.intro').css({
