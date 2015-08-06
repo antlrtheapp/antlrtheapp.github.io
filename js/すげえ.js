@@ -1,9 +1,11 @@
 $(document).ready(function() {
   $('#particles').particleground({
-    dotColor: '#e64b46',
+    dotColor: '#9C8DF7',
     lineColor: '#9C8DF7'
   });
   $('.intro').css({
     'margin-top': -($('.intro').height() / 2)
   });
 });
+
+//e64b46
