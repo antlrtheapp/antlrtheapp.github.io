@@ -8,27 +8,20 @@
 </head>
 
 <body>
+    <h2> ANTLR </h2>
+<div  align= "center">
+    <input class = "element" type="text" placeholder="keyword" name="keyword" id="keyword">
+    <input class = "element" type="text" placeholder="people" name="people" id="people">
+    <input class="element" type="button" onclick="search()" value = "SEARCH">
+</div>
 
-<h4 id="list"> </h4>
-
-
-<div>
-<h1 align="left" > KEYWORDS </h1>
-<form action="query.php" method="GET">
-    <input type="text" placeholder="keyword" name="keyword" id="keyword"><br />
-    <input type="text" placeholder="people" name="people" id="people"><br />
-    <input type="button" value="Click me" onclick="search()"><br />
-
-</form>
-
-
+<h4 id = "list" > </h4>
+    
 <script>
 
 var people = [];
 var keywords = [];
-
 var movies = [];
-
 var peopleID = [];
 var keywordsID = [];
 
@@ -60,14 +53,16 @@ function discoverMovies(data){
         var arrayData = JSON.parse(data);
         // console.log(arrayData);
         console.log(arrayData["results"]);
-        for(i = 0; i < arrayData["results"].length; i++){
-                movies.push(arrayData["results"][i]["title"]);
+        for(i = 0; i < arrayData["results"].length; i++){    
+            movies.push(arrayData["results"][i]["title"]);
+               
         }
         console.log(movies);
         document.getElementById("list").innerHTML = movies;
+       // document.getElementById("list").innerHTML = movies;
 }
 
 </script>
 </body>
-    </div>
+    
 </html>
