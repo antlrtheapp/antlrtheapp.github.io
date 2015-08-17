@@ -8,6 +8,8 @@ h2{
     margin-top: 5px;
     font-family: sans-serif, arial;
     font-size: 100px;
+    margin-bottom: 1px;
+    margin-right: 10px;
 }
 h4{
     margin-top: 50px;
@@ -33,6 +35,37 @@ IMG.displayed {
     margin-bottom: -50px;
     margin-top:  75px;
 }
+input.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: 5px;
+}
+.myButton {
+	background-color:transparent;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 44px;
+	text-decoration:none;
+	text-shadow:1px 1px 50px #2f6627;
+    margin-top: 20px;
+}
+.myButton:hover {
+	background-color:transparent;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
 
 
 
