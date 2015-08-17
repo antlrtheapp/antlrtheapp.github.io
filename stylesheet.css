@@ -1,11 +1,11 @@
 html {
-    background: #779C83  ;
+    background: #A5BAD5   ;
     background: repeating-radial-gradient(45deg, #c9c9c9, blue) 
 }
 h2{
-    color: azure;
+    color: white  ;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 5px;
     font-family: sans-serif, arial;
     font-size: 100px;
 }
@@ -20,13 +20,18 @@ h4{
     top: 40%;
     transform: translateY(-400%);
 }
-div1{
-    background: #9BD6B8;
+div2{
     text-align:center;
-    font-size: 100px;
 }
 table, th, td {
     color: azure;
+}
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -50px;
+    margin-top:  75px;
 }
 
 
